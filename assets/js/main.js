@@ -63,11 +63,10 @@ if(form){
   }
 
   // ✅ Redirect when "Yes" is clicked
-  bd.querySelector('#age-yes').addEventListener('click', closeGate);
-  });
+  bd.querySelector('#age-yes').addEventListener('click', closeGate());
 
   // ✅ Just close modal when "No" is clicked
-  bd.querySelector('#age-no').addEventListener('click', closeGate);
+  bd.querySelector('#age-no').addEventListener('click', closeGate());
 
 })();
 
